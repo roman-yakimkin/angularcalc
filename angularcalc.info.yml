@@ -1,0 +1,18 @@
+# Module name.
+name: Angular calc
+
+# Module description.
+description: A simple calculator using Drupal 8 and Angular JS
+
+# Here we point a group for our module /admin/modules.
+package: Custom
+
+# Here is a type of the module. It can be module, theme or profile.
+type: module
+
+# Key for core version. It's necessary!!!
+core: 8.x
+
+# A route name for module configuration
+configure: angularcalc.config
+

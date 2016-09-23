@@ -14,6 +14,7 @@ class AngularCalcController extends ControllerBase {
      */
     public function viewAngularCalc() {
         return array(
+            '#title' => 'Angular Calculator',
             '#markup' => t('Here will be an angular calculator'),
         );
     }

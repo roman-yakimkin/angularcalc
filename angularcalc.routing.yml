@@ -1,0 +1,6 @@
+angularcalc.viewcalc:
+  path: '/angularcalc'
+  defaults:
+    _controller: '\Drupal\angularcalc\Controller\AngularCalcController::viewAngularCalc'
+  requirements:
+    _permission: 'view content'

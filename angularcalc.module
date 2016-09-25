@@ -5,21 +5,3 @@
  * Date: 22.09.2016
  * Time: 17:57
  */
-
-/*
- * An Implementation for hook_menu in Drupal 8
- */
-
-//function angularcalc_menu(){
-//
-//    /*
-//     * Here we define menu item for view of an angular calculator page
-//     */
-//    $items['ac'] = array(
-//        'title' => 'Angular calculator',
-//        'description' => 'A simple calculator using Angular JS',
-//        'route_name' => 'angularcalc.view_calc',
-//    );
-//
-//    return $items;
-//}

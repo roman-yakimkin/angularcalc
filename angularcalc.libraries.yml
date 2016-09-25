@@ -1,0 +1,18 @@
+# Here we include the angular js library
+angularjs:
+  # link to the repository
+  remote: https://github.com/angular/angular.js
+  # A version of the included library
+  version: 1.5.8
+  # Information about licence
+  license:
+    # Licence name.
+    name: MIT
+    # Link to a file with licence
+    url: https://github.com/angular/angular.js/blob/master/LICENSE
+    # Узнать можно тут: http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses
+    gpl-compatible: true
+  # Including of js files.
+  js:
+    # A link to the file of the library, the file is external and uncompressed
+    https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js: { type: external, minified: true }

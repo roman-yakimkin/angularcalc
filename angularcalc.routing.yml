@@ -1,4 +1,4 @@
-angularcalc.viewcalc:
+angularcalc.view_calc:
   path: '/angularcalc'
   defaults:
     _controller: '\Drupal\angularcalc\Controller\AngularCalcController::viewAngularCalc'

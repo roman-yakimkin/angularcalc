@@ -5,3 +5,18 @@
  * Date: 22.09.2016
  * Time: 17:57
  */
+
+/*
+ * Implementation of hook_theme
+ */
+
+function angularcalc_theme() {
+    return [
+        'angularcalc_viewcalc' => [  // Theme name
+            'variables' => [
+                'data' => [],
+            ],
+            'template' => 'angular-calc', // Path to the template without .html.twig where we will have available variables
+        ]
+    ];
+}

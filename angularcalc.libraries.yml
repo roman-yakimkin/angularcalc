@@ -16,3 +16,15 @@ angularjs:
   js:
     # A link to the file of the library, the file is external and uncompressed
     https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js: { type: external, minified: true }
+
+# Here we include the library for our module
+angularcalcjs:
+  version: VERSION
+  # Including of js files.
+  css:
+    theme:
+      css/angularcalc.css: {}
+  # Including of js files.
+  js:
+    js/angularcalc.js: {}
+

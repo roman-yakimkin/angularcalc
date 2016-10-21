@@ -14,22 +14,14 @@ class AngularCalcController extends ControllerBase {
      */
     public function viewAngularCalc() {
 
-        /*
-        $output = array(
-          '#title' => 'Angular calculator',
-          '#markup' => '!!!',
-        );
-*/
+        // Array for output
         $output = [
             '#title' => 'Angular calculator',
-            '#prefix' => '<div id="angularcalc">',
+            '#prefix' => '<div id="angularcalc" ng-controller="angularcalcCtrl">',
             '#suffix' => '</div>',
-//            '#markup' => '!!!',
             '#theme' => 'angularcalc_viewcalc',
             '#data' => [],
         ];
-
-        $output['#attached']['library'][] = 'angularcalc/angularjs';
 
         return $output;
     }

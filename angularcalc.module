@@ -20,3 +20,19 @@ function angularcalc_theme() {
         ]
     ];
 }
+
+/*
+ * Adding the angular directive to html tag
+ */
+function angularcalc_preprocess_html(&$vars){
+    $vars['html_attributes']['ng-app'] = 'angularcalcApp';
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function angularcalc_page_attachments(array &$attachments)
+{
+    $attachments['#attached']['library'][] = 'angularcalc/angularjs';
+    $attachments['#attached']['library'][] = 'angularcalc/angularcalcjs';
+}

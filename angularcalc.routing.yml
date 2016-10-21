@@ -3,4 +3,4 @@ angularcalc.view_calc:
   defaults:
     _controller: '\Drupal\angularcalc\Controller\AngularCalcController::viewAngularCalc'
   requirements:
-    _permission: 'view content'
+    _permission: 'access content'

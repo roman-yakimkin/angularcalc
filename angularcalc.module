@@ -34,5 +34,6 @@ function angularcalc_preprocess_html(&$vars){
 function angularcalc_page_attachments(array &$attachments)
 {
     $attachments['#attached']['library'][] = 'angularcalc/angularjs';
+    $attachments['#attached']['library'][] = 'angularcalc/lodash';
     $attachments['#attached']['library'][] = 'angularcalc/angularcalcjs';
 }

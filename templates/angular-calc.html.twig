@@ -1,28 +1,30 @@
-<div class="ac-input" ng-bind="(name|uppercase)">
+<div class="ac-input">
+    <input type="text" ng-model="currentNumber"></input>
 </div>
 <div class="ac-row">
-    <button ng-click="processButton($event)">C</button>
-    <button ng-click="processButton($event)">pow</button>
-    <button ng-click="processButton($event)">sqrt</button>
-    <button ng-click="processButton($event)">+</button>
+    <ac-button>C</ac-button>
+    <ac-button>pow</ac-button>
+    <ac-button>sqrt</ac-button>
+    <ac-button>+</ac-button>
 </div>
 <div class="ac-row">
-    <button ng-click="processButton($event)">7</button>
-    <button ng-click="processButton($event)">8</button>
-    <button ng-click="processButton($event)">9</button>
-    <button ng-click="processButton($event)">-</button>
+    <ac-button>7</ac-button>
+    <ac-button>8</ac-button>
+    <ac-button>9</ac-button>
+    <ac-button>-</ac-button>
 </div>
 <div class="ac-row">
-    <button ng-click="processButton($event)">4</button>
-    <button ng-click="processButton($event)">5</button>
-    <button ng-click="processButton($event)">6</button>
-    <button ng-click="processButton($event)">*</button>
+    <ac-button>4</ac-button>
+    <ac-button>5</ac-button>
+    <ac-button>6</ac-button>
+    <ac-button>*</ac-button>
 </div>
 <div class="ac-row">
-    <button ng-click="processButton($event)">1</button>
-    <button ng-click="processButton($event)">2</button>
-    <button ng-click="processButton($event)">3</button>
-    <button ng-click="processButton($event)">/</button>
+    <ac-button>1</ac-button>
+    <ac-button>2</ac-button>
+    <ac-button>3</ac-button>
+    <ac-button>/</ac-button>
 </div>
 <div class="ac-row">
+    <ac-button>=</ac-button>
 </div>

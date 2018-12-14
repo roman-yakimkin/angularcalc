@@ -32,9 +32,6 @@ app.directive('acButton', function(){
         link: function(scope, element, attrs, ctrl, transclude){
             var cmd = element[0].textContent;
             element.on('click', function(event){
-
-//                console.log(event);
-
                 var key = this.innerText;
 
                 // If inputed key is a digit
@@ -101,9 +98,6 @@ app.directive('acButton', function(){
                     scope.prevNumber = 0;
                     scope.operation = '';
                 }
-
-                console.log(key + '  '+ scope.prevNumber + '  ' + scope.currentNumber + '  '+scope.operation);
-
                 scope.$apply();
 
             })
